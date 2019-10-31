@@ -7,6 +7,6 @@ const indexBooks = () => {
   })
 }
 
-module.export = {
+module.exports = {
   indexBooks
 }
