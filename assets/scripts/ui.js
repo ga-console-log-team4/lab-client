@@ -2,7 +2,7 @@
 
 // const store = require('./store')
 const api = require('./api')
-const alexHandlebars = require('../templates/display-all.handlebars')
+const alexHandlebars = require('./templates/display-all.handlebars')
 
 const successMessage = (newText) => {
   $('#message').text(newText)
