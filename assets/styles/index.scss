@@ -15,7 +15,12 @@ main {
 }
 
 #display-all-books {
+  margin: auto;
+}
 
+#display-one-book {
+  margin: auto;
+  margin-top: 70px;
 }
 
 #btn-get-books {
@@ -34,4 +39,14 @@ footer {
   font-size: 20px;
   height: 100px;
   margin-top: 50px;
+}
+
+.success {
+  color: green;
+  font-size: 25px;
+}
+
+.failure {
+  color: red;
+  font-size: 25px;
 }
