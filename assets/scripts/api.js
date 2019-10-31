@@ -6,3 +6,7 @@ const indexBooks = () => {
     url: config.apiUrl + '/books'
   })
 }
+
+module.export = {
+  indexBooks
+}
