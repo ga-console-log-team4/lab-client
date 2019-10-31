@@ -1,5 +1,37 @@
 @import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap');
 
 body {
+  background-image: url("https://res.cloudinary.com/dyiugkn4y/image/upload/v1572551028/GA%20Pix/book-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Goudy Bookletter 1911', serif;
   text-align: center;
+}
+
+main {
+  margin-top: 50px;
+}
+
+#display-all-books {
+
+}
+
+#btn-get-books {
+
+}
+
+#btn-get-book {
+
+}
+
+button:hover {
+
+}
+
+footer {
+  font-size: 20px;
+  height: 100px;
+  margin-top: 50px;
 }
