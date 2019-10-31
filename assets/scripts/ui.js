@@ -1,6 +1,6 @@
 'use-strict'
 
-const store = require('./store')
+// const store = require('./store')
 const api = require('./api')
 const alexHandlebars = require('../templates/display-all.handlebars')
 
@@ -15,7 +15,7 @@ const failureMessage = newText => {
   $('#message').removeClass('success')
   $('#message').addClass('failure')
 }
-const onIndexBooksSuccess = (indexedLeaders) => {
+const onIndexBooksSuccess = () => {
   successMessage('Indexed Books Successfully')
 }
 const onIndexBooksFailure = () => {
