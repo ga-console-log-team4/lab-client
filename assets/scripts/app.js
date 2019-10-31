@@ -8,6 +8,5 @@
 const events = require('./events.js')
 
 $(() => {
-
   $('#btn-get-books').on('click', events.onIndexBooks)
 })
