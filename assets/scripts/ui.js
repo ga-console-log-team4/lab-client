@@ -15,9 +15,12 @@ const failureMessage = newText => {
   $('#message').removeClass('success')
   $('#message').addClass('failure')
 }
-const onIndexBooksSuccess = () => {
+const onIndexBooksSuccess = (indexedBooks) => {
   successMessage('Indexed Books Successfully')
+  const indexBooksHTML = alexHandlebars({ books: indexedBooks.books })
+  $('#display-all-books').html(indexBooksHTML)
 }
+
 const onIndexBooksFailure = () => {
   failureMessage('Index Books Failed')
 }
