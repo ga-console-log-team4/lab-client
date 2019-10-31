@@ -1,6 +1,7 @@
 {{#each books as |book|}}
   <section data-id="{{book.id}}" class="col border col-auto">
     <ul>
+      <li><h3>The ID of the book is: {{book.id}}</h3></li>
     <li>
     {{#if book.author}}
     <h3>{{book.author}}</h3>
@@ -8,10 +9,13 @@
     <h3>Author Unknown</h3>
   {{/if}}
    </li>
-    <p>Book ID: {{book.id}}</p>
-    <p>You have asked:
-        {{question.phrase}}
-    </p>
+   <li>
+   {{#if book.title}}
+   <h3>{{book.title}}</h3>
+   {{else}}
+   <h3>Title Unknown</h3>
+ {{/if}}
+  </li>
   </ul>
       </section>
 {{/each}}
